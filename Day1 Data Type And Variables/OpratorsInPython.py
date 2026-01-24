@@ -69,7 +69,7 @@ val2=False
 print( "And Oprator =",val1 and val2 )  # True and False = False, both values should be True to return True
 print( "Or Oprator =",val1 or val2 )  # one value should be True to return True,if both are False then return False
 
-'''''
+
 #5 Membership Operators
 str="Hello, Welcome to Python Programming"  
 print( 'Welcome' in str )  # True
@@ -80,20 +80,20 @@ print( 'welcome' not in str )  # True
 x=5 
 
 
-y=6
-print( x is y )  # True , because both have same identity
-print( x is not y )  # False , because both have same identity
+y=5
+print( x is y )  # True , because both have same identity and identities means memory location
+print( x is not y )  # False , because both have same identity and identities means memory location
 
 
 a=[1,2,3]
 b=a
-print( a is b )  # True , because both have same identity
+print( a is b )  # True , because both have same identity , arrray 'b' is pointing to array 'a'
 
 print( a is not b )  # False , because both have same identity
 
 
 
-
+'''''
 
 
 
