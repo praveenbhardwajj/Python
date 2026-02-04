@@ -1,5 +1,5 @@
 def Doller_to_INR(Doller):
-    INR=90
+    INR=90 #todays rate
     Doller *= INR
     return Doller
 exchange_amt=int(input("Enetr dolller to vonvert into INR 👽🤖 "))

@@ -1,0 +1,1 @@
+f=open("Day7 File IO in Python/Sple.txt","x")
